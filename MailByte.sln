@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailByte", "MailByte\MailByte.csproj", "{7F36DDC9-F54A-4A6A-A238-45A156FD2837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailBbyte.Application", "MailBbyte.Application\MailBbyte.Application.csproj", "{37D7C91A-9F0E-4332-A11E-94281AD08B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailByte.Infrastructure", "MailByte.Infrastructure\MailByte.Infrastructure.csproj", "{DA13E525-6669-47AB-9C42-A2E8504BF571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailByte.Domain", "MailByte.Domain\MailByte.Domain.csproj", "{6AF75628-D2A9-41D4-94E2-7A5C1692BACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{7F36DDC9-F54A-4A6A-A238-45A156FD2837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F36DDC9-F54A-4A6A-A238-45A156FD2837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F36DDC9-F54A-4A6A-A238-45A156FD2837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D7C91A-9F0E-4332-A11E-94281AD08B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D7C91A-9F0E-4332-A11E-94281AD08B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D7C91A-9F0E-4332-A11E-94281AD08B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D7C91A-9F0E-4332-A11E-94281AD08B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA13E525-6669-47AB-9C42-A2E8504BF571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA13E525-6669-47AB-9C42-A2E8504BF571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA13E525-6669-47AB-9C42-A2E8504BF571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA13E525-6669-47AB-9C42-A2E8504BF571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF75628-D2A9-41D4-94E2-7A5C1692BACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF75628-D2A9-41D4-94E2-7A5C1692BACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF75628-D2A9-41D4-94E2-7A5C1692BACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF75628-D2A9-41D4-94E2-7A5C1692BACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
